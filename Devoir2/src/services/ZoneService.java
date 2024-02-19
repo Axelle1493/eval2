@@ -13,7 +13,7 @@ public class ZoneService {
   public List<Zone> listerZone(){
       return zoneRepository.selectAll();
    }
-   public void ajouterZone(Zone zone){
+   public void creerZone(Zone zone){
     zoneRepository.insert(zone);
    }
     public  Zone rechercherZoneParNom(String nomZone){
