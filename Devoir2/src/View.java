@@ -46,9 +46,8 @@ public class View {
                 System.out.println("Entrer le prix du bien"); 
                 double prix=sc.nextDouble();
                 int type=sc.nextInt();
-                 System.out.println("Entrer la date de creation du bien"); 
-                Date dateCreation=sc.nextDate();
-                int type=sc.nextInt();         
+                System.out.println("Entrer la date de creation du bien"); 
+                Date dateCreation=sc.nextDate()        
                 sc.nextLine();
                  System.out.println("Entrer la zone du bien");
                  nomZone=sc.nextLine(); 
